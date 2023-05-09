@@ -54,7 +54,7 @@ useEffect(() => {
         />
 
       </form>
-{console.log('prompt time')}
+
       <PromptCardList
       data={posts}
       handleTagClick={() => {}} />

@@ -8,7 +8,7 @@ const MyProfile = () => {
 
   const {data: session } = useSession()
   
-  const [posts, setPosts] = useState(second)
+  const [posts, setPosts] = useState([])
   
 useEffect(() => {
 
