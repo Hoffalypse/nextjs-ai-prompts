@@ -34,12 +34,13 @@ const handleCopy = () => {
           />
           <div className="flex flex-col">
             <h3 className="font-satoshi font-semibold tex-gray-900">{post.creator.username}</h3>
-            {/* <p className="font-inter text-sm text-gray-500">{post.creator.email}</p> */}
+            
           </div>
         </div>
         <div className="copy_btn" onClick={handleCopy}>
           <Image 
           src={copied === post.prompt ? '/assets/icons/tick.svg' : '/assets/icons/copy.svg'}
+          alt="copied icon"
           width={12}
           height={12}
           
