@@ -29,7 +29,7 @@ const handleSearchChange = (e) => {
 
 
 useEffect(() => {
-console.log('dickhead')
+
   const fetchPosts = async () => {
     const response = await fetch("/api/prompt");
     const data = await response.json();
