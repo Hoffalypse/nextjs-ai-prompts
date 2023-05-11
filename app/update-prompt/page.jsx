@@ -31,7 +31,7 @@ const EditPrompt = () => {
 
   const updatePrompt = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    setSubmitting(true);
 
     if (!promptId) return alert("Missing PromptId!");
 
@@ -50,7 +50,7 @@ const EditPrompt = () => {
     } catch (error) {
       console.log(error);
     } finally {
-      setIsSubmitting(false);
+      setSubmitting(false);
     }
   };
   return (

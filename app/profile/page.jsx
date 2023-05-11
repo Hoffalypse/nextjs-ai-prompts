@@ -29,6 +29,15 @@ const handleEdit = (post) => {
 };
 
   const handleDelete = async (post) => {
+    const hasConfirmed = confirm("Are you sure that you want to delete this prompt?")
+
+    if(hasConfirmed){
+      try {
+        
+      } catch (error) {
+        console.log(error)
+      }
+    }
 
   }
   return (
