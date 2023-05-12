@@ -8,7 +8,7 @@ const Home = () => {
       <span className="orage_gradient text-center">AI-Powered Prompts</span>
       </h1>
       <p className="desc text-center">
-        Hoffmpts is an open source AI prompting tool for the modern world to discover, create and share your best and most creative prompts
+        Hoff Prompts is an Open Source AI prompting tool for the modern world to discover, create and share your best and most effective prompts
       </p>
 
       <Feed/>
